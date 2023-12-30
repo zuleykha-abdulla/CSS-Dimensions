@@ -1,0 +1,169 @@
+.Height {
+  height: 400px;
+  width: 400px;
+  border: 1px solid blue;
+  background-color: rgb(146, 81, 124);
+  padding: 5px;
+  margin: 10px;
+}
+
+/*setrin hundurluyu teyin edilir*/
+
+.Line {
+  height: 200px;
+  width: 400px;
+  border: 2px solid rgb(8, 8, 27);
+  background-color: rgb(42, 32, 88);
+  padding: 5px;
+  margin: 10px;
+  line-height: 30px;
+}
+.maksimum {
+  max-height: 150px;
+  width: 400px;
+  border: 3px solid green;
+  padding: 5px;
+  margin: 10px;
+}
+.minimum {
+  min-height: 10px;
+  height: auto;
+  width: 400px;
+  border: 2px solid yellowgreen;
+  background-color: chartreuse;
+  padding: 5px;
+  margin: 10px;
+}
+
+.Width {
+  max-width: 500px;
+  height: 400px;
+  border: 2px solid red;
+  background-color: blue;
+  padding: 5px;
+  margin: 10px;
+}
+
+/* bu niyese enli alinir*/
+
+.Minwidth {
+  min-width: 100px;
+  height: 200px;
+  border: 2px solid grey;
+  background-color: aqua;
+  padding: 5px;
+  margin: 10px;
+}
+
+.bar {
+  height: 400px;
+  width: 400px;
+  border: 2px solid green;
+  background-color: blueviolet;
+  padding: 5px;
+  margin-right: 100px;
+}
+
+.scroll {
+  border: 1px solid red;
+  padding: 5px;
+  margin-top: 5px;
+  width: 300px;
+  height: 50px;
+  overflow: scroll;
+}
+.auto {
+  border: 1px solid red;
+  padding: 5px;
+  margin-top: 5px;
+  width: 300px;
+  height: 50px;
+  overflow: auto;
+}
+
+.Hidden {
+  height: 400px;
+  width: 400px;
+  border: 2px solid green;
+  background-color: blueviolet;
+  padding: 5px;
+  margin-right: 100px;
+  visibility: hidden;
+}
+
+.Visible {
+  height: 400px;
+  width: 400px;
+  border: 2px solid green;
+  background-color: blueviolet;
+  padding: 5px;
+  margin-right: 100px;
+  visibility: visible;
+}
+
+.Position {
+  height: 400px;
+  width: 300px;
+  border: 2px solid rgb(27, 26, 26);
+  background-color: rgb(240, 14, 14);
+  padding: 5px;
+  margin-left: 300px;
+}
+
+div.Relative {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border: 3px solid #573650;
+  background-color: pink;
+}
+
+div.Absolute {
+  position: absolute;
+  top: 90px;
+  right: 0;
+  width: 50%;
+  height: 150px;
+  border: 3px solid #616063;
+  background-color: rgb(99, 182, 214);
+}
+
+/* fixed (sabit movqe) elementin topda yerlesdirilmesi teleb olunan zaman:*/
+
+.Fixed {
+  position: fixed;
+  left: 80px;
+  top: 20px;
+  background-color: aqua;
+}
+
+/* bu elementin bottomda yerlesdirilmesi teleb olunan zaman:
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+*/
+
+.Static {
+  position: static;
+  border: 3px solid #941122;
+}
+
+.Example {
+  width: 60%;
+  height: auto;
+  border: #1d0e5f;
+  background-color: rgb(229, 226, 233);
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 50px;
+  background-color: #cae8ca;
+  border: 2px solid #268f2a;
+}

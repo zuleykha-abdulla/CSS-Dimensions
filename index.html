@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="Height">
+      <h1>CSS-Dimensions</h1>
+      <p>
+        Qutunun ölçülərini idarə etməyə imkan verən aşağıdakı xüsusiyyətlərə
+        sahiblik etmək mümkündür.
+      </p>
+      <h2>The Width and Height</h2>
+      <ul>
+        <li>
+          Height - xassəsindən qutunun hündürlüyünü təyin etmək üçün istifadə
+          olunur.
+        </li>
+        <li>Width - xassəsi qutunun enini təyin etmək üçün istifadə olunur.</li>
+      </ul>
+      <p>
+        Hündürlük və genişlik xassələri qutular üçün hündürlüyü və eni təyin
+        etməyə imkan verir. Onlar uzunluq, faiz və ya auto dəyərlərini qəbul edə
+        bilər.
+      </p>
+    </div>
+    <br />
+    <div class="Line">
+      <h1>The Line Height-Sətir Hündürlüyü</h1>
+      <p>
+        Line-height xüsusiyyəti mətnin sətirləri arasındakı boşluğu artırmağa
+        imkan verir. Line Height xassəsinin dəyəri rəqəm, uzunluq və ya faiz ola
+        bilər
+      </p>
+    </div>
+
+    <div class="maksimum">
+      <h1>The Max-height</h1>
+      <p>
+        Max-height xüsusiyyəti qutunun maksimum hündürlüyünü təyin etməyə imkan
+        verir. Max-height xüsusiyyətinin dəyəri rəqəm, uzunluq və ya faiz ola
+        bilər.
+      </p>
+    </div>
+
+    <div class="minimum">
+      <h1>The Min-height</h1>
+      <p>
+        Min-height xüsusiyyəti qutunun minimum hündürlüyünü təyin etməyə imkan
+        verir. Min-height xüsusiyyətinin dəyəri rəqəm, uzunluq və ya faiz ola
+        bilər.
+      </p>
+    </div>
+
+    <div class="Width">
+      <h1>The Max-width</h1>
+      <p>
+        Max-width xüsusiyyəti qutunun maksimum genişliyini təyin etməyə imkan
+        verir. Max-width xüsusiyyətinin dəyəri rəqəm, uzunluq və ya faiz ola
+        bilər.
+      </p>
+    </div>
+
+    <div class="Minwidth">
+      <h1>The Min-width</h1>
+      <p>
+        Min-width xüsusiyyəti qutunun minimum genişliyini təyin etməyə imkan
+        verir. Min-width xüsusiyyətinin dəyəri rəqəm, uzunluq və ya faiz ola
+        bilər.
+      </p>
+    </div>
+    <br />
+    <!----CSS-Scroll Bars -CSS-Scroll Çubuqları nezerden kecirek--->
+
+    <div class="bar">
+      <h1>CSS-Scroll Bars -CSS-Scroll Çubuqları</h1>
+
+      <p>
+        Elementin məzmununun ona ayrılmış yerin miqdarından daha böyük ola
+        biləcəyi hallar ola bilər. Məsələn, verilmiş en və hündürlük xassələri
+        elementin məzmununu yerləşdirmək üçün kifayət qədər yer ayirmağa imkan
+        vermir CSS, qutunun məzmunu qutunun özündən böyükdürsə, brauzerə nə
+        edəcəyini bildirən overflow adlı bir xüsusiyyət təqdim edir. Bu
+        xüsusiyyət aşağıdakı dəyərlərdən birini qəbul edə bilər:
+      </p>
+    </div>
+
+    <h2>Example of scroll value:</h2>
+
+    <div class="scroll">
+      Visible - Məzmunun özündə olan elementin sərhədlərini aşmasına imkan
+      verir. Hidden - İçəridə yerləşdirilmiş elementin məzmunu sadəcə olan
+      elementin sərhədində kəsilir və heç bir sürüşdürmə çubuqları görünmür.
+      Scroll(x və y dəyərləri üzrədə scroll verə bilərik) - Tərkibindəki
+      elementin ölçüsü dəyişmir, lakin istifadəçiyə məzmunu görmək üçün
+      sürüşdürməyə imkan vermək üçün sürüşdürmə çubuqları əlavə edilir. Auto -
+      Məqsəd sürüşdürmə ilə eynidir, lakin sürüşdürmə zolağı yalnız məzmun
+      daşdıqda göstəriləcək.
+    </div>
+    <br />
+    <h2>Example of auto value:</h2>
+    <div class="auto">
+      I am going to keep lot of content here just to show you how scrollbars
+      works if there is an overflow in an element box. This provides your
+      horizontal as well as vertical scrollbars.
+    </div>
+    <br />
+
+    <!-----visibility: hidden - Qutu və onun məzmunu hələ də səhifənin kodlarına təsir etsə də, görünməz hala gətirilir.-->
+
+    <div class="Hidden">
+      <h1>CSS-Visibility</h1>
+      <p>
+        Visibility adlanan xüsusiyyət elementi görünüşdən gizlətməyə imkan
+        verir. Menyuları və çox mürəkkəb veb səhifə tərtibatları yaratmaq üçün
+        JavaScript ilə birlikdə bu xassədən istifadə edə bilərsiniz.
+        <br />
+        Siz yalnız istifadəçinin onları görməsi lazım olduqda göstərilən səhv
+        mesajlarını gizlətmək və ya istifadəçi seçim seçənə qədər doğru
+        cavabları gizlətmək üçün visibility xüsusiyyətindən istifadə edə
+        bilərsiniz.
+        <br />
+        QEYD: Yadda saxlayın ki, mənbə kodu hələ də görünməz paraqrafda olan hər
+        şeyi göstərəcək inspectdə, ona görə də kredit kartı detalları və ya
+        parollar kimi həssas məlumatları gizlətmək üçün bundan istifadə
+        etməməlisiniz.
+        <br />
+        Visibility xüsusiyyəti aşağıdakı cədvəldə sadalanan dəyərləri qəbul edə
+        bilər:
+      </p>
+      <ul>
+        <li>visible - Qutu və onun məzmunu istifadəçiyə göstərilir.</li>
+        <li>
+          hidden - Qutu və onun məzmunu hələ də səhifənin kodlarına təsir etsə
+          də, görünməz hala gətirilir.
+        </li>
+      </ul>
+    </div>
+
+    <!-----visibility: visible - Qutu və onun məzmunu istifadəçiyə göstərilir-->
+
+    <div class="Visible">
+      <h1>CSS-Visibility</h1>
+      <p>
+        Visibility adlanan xüsusiyyət elementi görünüşdən gizlətməyə imkan
+        verir. Menyuları və çox mürəkkəb veb səhifə tərtibatları yaratmaq üçün
+        JavaScript ilə birlikdə bu xassədən istifadə edə bilərsiniz.
+        <br />
+        Siz yalnız istifadəçinin onları görməsi lazım olduqda göstərilən səhv
+        mesajlarını gizlətmək və ya istifadəçi seçim seçənə qədər doğru
+        cavabları gizlətmək üçün visibility xüsusiyyətindən istifadə edə
+        bilərsiniz.
+        <br />
+        QEYD: Yadda saxlayın ki, mənbə kodu hələ də görünməz paraqrafda olan hər
+        şeyi göstərəcək inspectdə, ona görə də kredit kartı detalları və ya
+        parollar kimi həssas məlumatları gizlətmək üçün bundan istifadə
+        etməməlisiniz.
+        <br />
+        Visibility xüsusiyyəti aşağıdakı cədvəldə sadalanan dəyərləri qəbul edə
+        bilər:
+      </p>
+      <ul>
+        <li>visible - Qutu və onun məzmunu istifadəçiyə göstərilir.</li>
+        <li>
+          hidden - Qutu və onun məzmunu hələ də səhifənin kodlarına təsir etsə
+          də, görünməz hala gətirilir.
+        </li>
+      </ul>
+    </div>
+    <br />
+
+    <!-----CSS-Positions movqeleri nezerden kecirek ------>
+
+    <div class="Position">
+      <h1>CSS-Positions (CSS-Mövqelər)</h1>
+      <p>
+        CSS sizə HTML elementinizi yerləşdirməyə kömək edir. İstənilən HTML
+        elementini istədiyiniz yerə qoya bilərsiniz. Siz elementin səhifədəki
+        təbii mövqeyinə relative yerləşdirilməsini və ya əsas elementinə əsasən
+        asolute olmasını təyin edə bilərsiniz.Aşağıdakı versiyaları var
+      </p>
+      <ul>
+        <li>Position: relative</li>
+        <li>Position: absolute</li>
+        <li>Position: fixed</li>
+        <li>Position: static</li>
+        <li>Position: sticky</li>
+      </ul>
+    </div>
+    <br />
+    <div class="Relative">
+      <h2>Position Relative- Nisbi Mövqe</h2>
+      <p>
+        Relative yerləşdirmə HTML elementinin normal olduğu yerə nisbətən
+        mövqeyini dəyişir. Beləliklə, «left:20" elementin SOL mövqeyinə 20
+        piksel əlavə edir. Tərəflərə uyğun qiymətlər verə bilərsiniz
+      </p>
+      <br />
+
+      <div class="Absolute">
+        <h1>Position Absolute - Mütləq Mövqe</h1>
+
+        <p>
+          Absolute mövqeyi olan element: mütləq ekranınızın yuxarı sol küncünə
+          nisbətən göstərilən koordinatlarda yerləşdirilir. Kordinatları özünüz
+          left/top/bottom/right olaraq verə bilərsiniz
+          <br />
+          Amma absolute position-ı olan bir elementi relativ positionu olan
+          elementin içinə salsaq onda ana div-inə əsasən özünə yer seçəcək
+        </p>
+      </div>
+    </div>
+
+    <div class="Fixed">
+      <h1>Position Fixed - Sabit Mövqe</h1>
+      <p>
+        Fixed yerləşdirmə, scrolldan asılı olmayaraq, elementin mövqeyini
+        səhifədə müəyyən bir yerə sabitləməyə imkan verir. Göstərilən
+        koordinatlar brauzer pəncərəsinə nisbətən olacaq.
+      </p>
+    </div>
+    <br />
+
+    <div class="Static">
+      <h1>Position Static</h1>
+      <p>
+        Bu elementləirn default olaraq yerləşdiyi yerlərdir. Buna görə də
+        elementlərə position: static yazılmasının bir mənası yoxdur
+      </p>
+    </div>
+    <br />
+
+    <!---Position Sticky- Yapışqan movqeni nezerden kecirek-->
+
+    <div class="Example">
+      <p>
+        Try to <b>scroll</b> inside this frame to understand how sticky
+        positioning works.
+      </p>
+
+      <div class="sticky">Position Sticky- Yapışqan movqe</div>
+
+      <div style="padding-bottom: 2000px">
+        <p>
+          In this example, the sticky element sticks to the top of the page
+          (top: 0), when you reach its scroll position.
+        </p>
+        <p>Scroll back up to remove the stickyness.</p>
+        <p>
+          Sticky yerləşdirmə, scrolldan asılı olmayaraq, elementin mövqeyini
+          səhifədə müəyyən bir məsafəyə qədər sabitləməyə imkan verir.
+          Göstərilən koordinatlar brauzer pəncərəsinə nisbətən olacaq.
+        </p>
+        <p>
+          Sticky yerləşdirmə, scrolldan asılı olmayaraq, elementin mövqeyini
+          səhifədə müəyyən bir məsafəyə qədər sabitləməyə imkan verir.
+          Göstərilən koordinatlar brauzer pəncərəsinə nisbətən olacaq.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
